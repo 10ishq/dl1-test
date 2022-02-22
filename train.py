@@ -13,6 +13,9 @@
 # ## Exploratory Data Analysis
 
 # %%
+from habana_frameworks.tensorflow import load_habana_module
+load_habana_module()
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
