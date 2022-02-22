@@ -16,9 +16,9 @@
 # from habana_frameworks.tensorflow import load_habana_module
 # load_habana_module()
 
-import numpy as np
+#import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import seaborn as sns
 
 import os
@@ -162,8 +162,8 @@ print("Image Shape",img.shape)
 # **Prediction**
 
 # %%
-prediction = int(tf.round(model2.predict(x=img)).numpy()[0][0])
-print("The predicted value is: ",prediction,"and the predicted label is:",class_indices[prediction])
+# prediction = int(tf.round(model2.predict(x=img)).numpy()[0][0])
+# print("The predicted value is: ",prediction,"and the predicted label is:",class_indices[prediction])
 
 
 # %%
